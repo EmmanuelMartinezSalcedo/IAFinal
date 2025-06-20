@@ -2,7 +2,6 @@ from sklearn.metrics import (
   accuracy_score, precision_score, recall_score,
   f1_score, confusion_matrix, classification_report
 )
-import numpy as np
 
 def calculate_metrics(y_true, y_pred, average='macro'):
   return {
